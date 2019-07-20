@@ -64,14 +64,7 @@ const ProfileSection = () => {
 
       <div css={styles.container}>
         <WhiteBox css={styles.whiteBox}>
-          <h3 css={styles.h3}>概要</h3>
-          <div css={styles.gaiyouPictureContainer}>
-            <img
-              src={profileJpg}
-              css={styles.gaiyouPicture}
-              alt=""
-            />
-          </div>
+          <h3 css={styles.h3}>개요</h3>
 
           <div css={styles.gaiyouListItem}>
             <div css={styles.gaiyouItemName}>
@@ -93,7 +86,7 @@ const ProfileSection = () => {
             <div css={styles.gaiyouItemName}>
               <b>영문명</b>
             </div>
-            <div css={styles.gaiyouItemContent}>Namu security</div>
+            <div css={styles.gaiyouItemContent}>Namu Security</div>
           </div>
 
           <div css={styles.gaiyouListItem}>
@@ -114,7 +107,7 @@ const ProfileSection = () => {
         </WhiteBox>
 
         <WhiteBox css={{ ...styles.whiteBox, ...styles.whiteBoxKeireki }}>
-          <h3 css={styles.h3}>経歴</h3>
+          <h3 css={styles.h3}>연혁</h3>
 
           <Hr />
 
