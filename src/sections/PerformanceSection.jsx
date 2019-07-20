@@ -108,9 +108,8 @@ const PerformanceSection = () => {
 
   return (
     <SectionContainer id="performance">
-      <SectionHeader text="実績" colorNumber="1" />
+      <SectionHeader text="주요실적" colorNumber="1" />
 
-      {/* グリッド始点 */}
       <div css={styles.grid}>
         {performances.map(performance => (
           <WhiteBox key={performance.name} css={styles.whiteBox}>
@@ -137,29 +136,6 @@ const PerformanceSection = () => {
             </a>
 
             <p css={styles.description}>{performance.description}</p>
-
-            {performance.githubURL ? (
-              <a
-                href={performance.githubURL}
-                target="_blank"
-                rel="noopener noreferrer"
-                css={styles.externalLink}
-              >
-                ソースコード
-              </a>
-            ) : (
-              <div style={{ color: 'transparent' }}>_</div>
-            )}
-
-            {performance.blogPath && (
-              <Link
-                to={performance.blogPath}
-                target="_blank"
-                css={styles.externalLink}
-              >
-                関連ブログ
-              </Link>
-            )}
 
             <ul css={styles.techStackGrid}>
               {performance.techStack.map(tech => (
