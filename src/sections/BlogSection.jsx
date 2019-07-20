@@ -30,9 +30,9 @@ const BlogSection = () => {
 
   return (
     <SectionContainer id="blog">
-      <SectionHeader text="ブログ" colorNumber="1" />
-      <Link to="/blog/" css={styles.link}>
-        Yuuniworks Blog
+      <SectionHeader text="Home" colorNumber="1" />
+      <Link to="/" css={styles.link}>
+        Home
       </Link>
     </SectionContainer>
   );
