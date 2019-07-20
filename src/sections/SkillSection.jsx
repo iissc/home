@@ -56,7 +56,7 @@ const SkillSection = props => {
   };
 
   const skills = {
-    フロントエンド: {
+    front-end: {
       'JavaScript / Typescript': 3,
       'React / Redux': 3,
       'Vue.js / Vuex': 3,
@@ -67,7 +67,7 @@ const SkillSection = props => {
       GraphQL: 1,
       RxJS: 1,
     },
-    バックエンド: {
+    Back-end: {
       Docker: 3,
       'Python / Django': 2,
       Go: 2,
@@ -78,45 +78,22 @@ const SkillSection = props => {
       Firebase: 2,
       Kubernetes: 2,
     },
-    その他: [
+    ETC: [
       {
-        title: 'スキルテスト',
+        title: 'Secure Coding',
         content: (
           <div>
-            Paizaコーディング{' '}
-            <a
-              href="https://paiza.jp/guide/career#rank"
-              css={styles.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Aランク<IconExtLink />
-            </a>
+            ASP, PHP, C++
           </div>
         ),
       },
       {
-        title: 'スキル習得方法',
+        title: 'Cloud',
         content: (
-          <div
-            onClick={() => props.setCurrentModal('UDEMY')}
-            onKeyDown={e => {
-              if (e.keyCode === 13) props.setCurrentModal('UDEMY');
-            }}
-            role="button"
-            tabIndex={0}
-          >
-            Udemy（<span css={styles.link}>習得済みコース一覧</span>）
+          <div>
+            AWS, GCP, Azure
           </div>
         ),
-      },
-      {
-        title: '言語',
-        content: <div>日本語、英語</div>,
-      },
-      {
-        title: '好きなツール',
-        content: 'VSCode、HHKB Pro2',
       },
     ],
   };
@@ -127,7 +104,7 @@ const SkillSection = props => {
       <div css={styles.grid}>
         <WhiteBox css={styles.whiteBox}>
           <div>
-            <h3>フロントエンド関連</h3>
+            <h3>Front-end</h3>
             <div
               css={styles.helpButton}
               onClick={() => props.setCurrentModal('SKILL_HELP')}
@@ -151,7 +128,7 @@ const SkillSection = props => {
 
         <WhiteBox css={styles.whiteBox}>
           <div>
-            <h3>バックエンド関連</h3>
+            <h3>Back-end</h3>
             {Object.keys(skills['バックエンド']).map(skill => (
               <Skill
                 skillName={skill}
@@ -164,7 +141,7 @@ const SkillSection = props => {
 
         <WhiteBox css={styles.whiteBox}>
           <div>
-            <h3>その他</h3>
+            <h3>ETC</h3>
             <ul>
               {skills['その他'].map(item => (
                 <li css={styles.sonotaListItem} key={item.title}>
