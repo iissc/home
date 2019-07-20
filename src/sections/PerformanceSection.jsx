@@ -125,15 +125,7 @@ const PerformanceSection = () => {
               />
             </a>
 
-            <a
-              href={performance.webpageURL}
-              target="_blank"
-              rel="noopener noreferrer"
-              css={styles.itemTitle}
-            >
-              {performance.name}
-              <IconExtLink />
-            </a>
+              {performance.name}              
 
             <p css={styles.description}>{performance.description}</p>
 
