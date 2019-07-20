@@ -41,16 +41,7 @@ const TopSection = () => {
         <img src={logoSvg} alt="Yuuniworksのロゴ" />
       </h1>
       <div css={styles.description}>
-        田村翔太と申します。<br />
-        <a
-          href="https://goo.gl/maps/HjyoY7NJ9j92"
-          css={{ color: 'white' }}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          島根県浜田市<IconExtLink color="#fff" />
-        </a>を拠点に活動する<br />
-        フルスタックエンジニアです。
+        나무시큐리티(주)는 국내 모바일 앱 진단의 원천기술력을 보유하고 있으며, 개인정보보호를 위해 노력하는 종합보안전문기업입니다.
       </div>
       <LinkForScroll
         to="gaiyou"
@@ -59,7 +50,7 @@ const TopSection = () => {
         offset={-50}
         css={styles.arrow}
       >
-        <img src={arrowSvg} alt="下向きの矢印" />
+        <img src={arrowSvg} alt="아래로" />
       </LinkForScroll>
     </section>
   );
