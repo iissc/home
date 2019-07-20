@@ -116,10 +116,10 @@ const SkillSection = props => {
             >
               <img src={questionSvg} alt="hint button" />
             </div>
-            {Object.keys(skills['フロントエンド']).map(skill => (
+            {Object.keys(skills['frontend']).map(skill => (
               <Skill
                 skillName={skill}
-                skillLevel={skills['フロントエンド'][skill]}
+                skillLevel={skills['frontend'][skill]}
                 key={skill}
               />
             ))}
@@ -129,10 +129,10 @@ const SkillSection = props => {
         <WhiteBox css={styles.whiteBox}>
           <div>
             <h3>Back-end</h3>
-            {Object.keys(skills['バックエンド']).map(skill => (
+            {Object.keys(skills['Backend']).map(skill => (
               <Skill
                 skillName={skill}
-                skillLevel={skills['バックエンド'][skill]}
+                skillLevel={skills['Backend'][skill]}
                 key={skill}
               />
             ))}
@@ -143,7 +143,7 @@ const SkillSection = props => {
           <div>
             <h3>ETC</h3>
             <ul>
-              {skills['その他'].map(item => (
+              {skills['ETC'].map(item => (
                 <li css={styles.sonotaListItem} key={item.title}>
                   <div css={styles.sonotaTitle}>
                     <FontAwesomeIcon
