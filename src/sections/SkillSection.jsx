@@ -56,7 +56,7 @@ const SkillSection = props => {
   };
 
   const skills = {
-    front-end: {
+    frontend: {
       'JavaScript / Typescript': 3,
       'React / Redux': 3,
       'Vue.js / Vuex': 3,
@@ -67,7 +67,7 @@ const SkillSection = props => {
       GraphQL: 1,
       RxJS: 1,
     },
-    Back-end: {
+    Backend: {
       Docker: 3,
       'Python / Django': 2,
       Go: 2,
