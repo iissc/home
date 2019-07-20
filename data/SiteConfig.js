@@ -1,11 +1,10 @@
 module.exports = {
-  corporationName: 'Yuuniworks',
-  siteTitle: 'Yuuniworks / 島根のフリーランスエンジニア',
+  corporationName: '나무시큐리티',
+  siteTitle: '나무시큐리티 / 정보보안',
   siteDescription:
-    'フリーランスのフルスタックエンジニアです。Python/Node.js/GoによるAPIの開発、React/Vue.js等によるSPAの開発などを行っています。',
+    '나무',
   siteKeywords:
-    'SPA,Serverless,サーバーレス,Lambda,AWS,React,Redux,Angular,フリーランス',
-  siteUrl: 'https://www.yuuniworks.com',
+    'SPA,Serverless,Lambda,AWS,React,Redux,Angular',
+  siteUrl: 'https://www.namusecurity.co.kr',
   siteLogo: '/images/logo_for_schema.png',
-  googleAnalyticsID: 'UA-116967778-1',
 };
