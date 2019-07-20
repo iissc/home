@@ -100,7 +100,7 @@ const SkillSection = props => {
 
   return (
     <SectionContainer id="skill" colorNumber="2" skew>
-      <SectionHeader text="スキル" colorNumber="2" />
+      <SectionHeader text="기술" colorNumber="2" />
       <div css={styles.grid}>
         <WhiteBox css={styles.whiteBox}>
           <div>
