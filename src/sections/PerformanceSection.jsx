@@ -113,17 +113,12 @@ const PerformanceSection = () => {
       <div css={styles.grid}>
         {performances.map(performance => (
           <WhiteBox key={performance.name} css={styles.whiteBox}>
-            <a
-              href={performance.webpageURL}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            
               <img
                 src={performance.imgPath}
                 css={styles.itemImage}
                 alt={performance.name}
               />
-            </a>
 
               {performance.name}              
 
