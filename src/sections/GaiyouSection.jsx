@@ -9,20 +9,20 @@ import { rhythm } from '../utils/typography';
 const GaiyouSection = props => {
   const articles = [
     [
-      '何ができる？',
-      'Python/Node.js/GoによるAPIの開発、React/Vue.js等によるSPAの開発などを行っています。<br /><br /><a href="https://github.com/junkboy0315/" target="_blank">Githubアカウントはこちら</a>',
+      '정보보안컨설팅',
+      'ISO 27001, ISMS-P 인증 컨설팅',
     ],
     [
-      '契約形態は？',
-      '準委任契約(時間単価4,000円～)によるリソースの提供が可能です。開発内容によっては、請負契約も可能です。',
+      '모바일 앱 취약점 진단',
+      '안드로이드, IoS 모바일앱 보안 점검',
     ],
     [
-      '常駐できる？',
-      'フルリモートワークを前提とさせて頂いておりますが、遠方での打ち合わせ等にも柔軟に対応いたします。',
+      'IoT 기기 점검',
+      '펌웨어, 물리적 환경, 서버 통신망 점검',
     ],
     [
-      'いま仕事できる？',
-      '内容・期間によっては受託可能です。お気軽にお問い合わせください。',
+      '보안 솔루션',
+      '랜섬웨어, 악성코드 대응',
     ],
   ];
 
@@ -68,7 +68,7 @@ const GaiyouSection = props => {
 
   return (
     <SectionContainer id="gaiyou">
-      <SectionHeader text="概要" colorNumber="1" />
+      <SectionHeader text="분야" colorNumber="1" />
 
       <WhiteBox css={styles.container}>
         {articles.map(article => (
@@ -82,13 +82,6 @@ const GaiyouSection = props => {
           </li>
         ))}
       </WhiteBox>
-
-      <button
-        css={styles.button}
-        onClick={() => props.setCurrentModal('CONTACT')}
-      >
-        お問い合わせ
-      </button>
     </SectionContainer>
   );
 };
