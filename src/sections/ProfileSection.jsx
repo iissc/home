@@ -60,7 +60,7 @@ const ProfileSection = () => {
 
   return (
     <SectionContainer id="profile" colorNumber="2" skew skewReverse>
-      <SectionHeader text="プロフィール" colorNumber="2" />
+      <SectionHeader text="기업소개" colorNumber="2" />
 
       <div css={styles.container}>
         <WhiteBox css={styles.whiteBox}>
@@ -69,56 +69,47 @@ const ProfileSection = () => {
             <img
               src={profileJpg}
               css={styles.gaiyouPicture}
-              alt="代表者のプロフィール写真"
+              alt=""
             />
           </div>
 
           <div css={styles.gaiyouListItem}>
             <div css={styles.gaiyouItemName}>
-              <b>氏名</b>
+              <b>상호</b>
             </div>
-            <div css={styles.gaiyouItemContent}>田村 翔太</div>
+            <div css={styles.gaiyouItemContent}>나무시큐리티</div>
           </div>
 
           <div css={styles.gaiyouListItem}>
             <div css={styles.gaiyouItemName}>
-              <b>年齢</b>
+              <b>개업후</b>
             </div>
             <div css={styles.gaiyouItemContent}>
-              <AgeCalculator birthday="1985-03-15T15:00+09:00" />
+              <AgeCalculator birthday="2011-12-13T15:00+09:00" />
             </div>
           </div>
 
           <div css={styles.gaiyouListItem}>
             <div css={styles.gaiyouItemName}>
-              <b>居住地</b>
+              <b>영문명</b>
             </div>
-            <div css={styles.gaiyouItemContent}>島根県浜田市</div>
+            <div css={styles.gaiyouItemContent}>Namu security</div>
           </div>
 
           <div css={styles.gaiyouListItem}>
             <div css={styles.gaiyouItemName}>
-              <b>趣味</b>
+              <b>주소</b>
             </div>
             <div css={styles.gaiyouItemContent}>
-              <a
-                href="https://www.youtube.com/channel/UCbcCsHMZEjfsQZ5aaxNYNiw"
-                css={{ color: '#262626' }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                バンド活動<IconExtLink />
-              </a>
-              <br />
-              車の修理
+              서울특별시 영등포구 도신로52길 19
             </div>
           </div>
 
           <div css={styles.gaiyouListItem}>
             <div css={styles.gaiyouItemName}>
-              <b>座右の銘</b>
+              <b>전화</b>
             </div>
-            <div css={styles.gaiyouItemContent}>全てがコードになる</div>
+            <div css={styles.gaiyouItemContent}>02-6498-3019</div>
           </div>
         </WhiteBox>
 
@@ -128,72 +119,50 @@ const ProfileSection = () => {
           <Hr />
 
           <p>
-            <b>フリーランスエンジニア</b>
+            <b>연혁</b>
             <br />
-            <span css={styles.keirekiGray}>(2018.4 - )</span>
+            <span css={styles.keirekiGray}>(2011.12 - )</span>
           </p>
           <p>
-            フリーランスエンジニアとして独立。フルスタックに活動中。
-            APIとフロントエンドが分離された美しく優しい世界を広めるべく、日々邁進中。
+            회사설립
           </p>
 
           <Hr />
 
           <p>
-            <b>システム管理者</b>
+            <b>보안 컨설팅</b>
             <br />
-            <span css={styles.keirekiGray}>(2008.4 - 2018.3)</span>
+            <span css={styles.keirekiGray}>(2012.4 - 2015.3)</span>
           </p>
           <p>
-            自治体のIT部門において主にインフラ管理を担当。
-            <a
-              href="https://www.nutanix.jp/company/customers/all-customers/hamada-city/"
-              target="_blank"
-              rel="noopener noreferrer"
-              css={styles.link}
-            >
-              Nutanixによるプライベートクラウド基盤の構築<IconExtLink />
-            </a>や、
-            <a
-              href="https://jpn.nec.com/case/city.hamada/index.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              css={styles.link}
-            >
-              SDNの導入<IconExtLink />
-            </a>などを手がける。
-          </p>
-          <p>
-            またプライベートにおいて、React、NodeJS、Docker、Kubernatesなどの技術を独学する。
+            건설업계 대외서비스 모의해킹
           </p>
 
-          <Hr text="(様々な紆余曲折)" />
+          <Hr text="(보안 솔루션)" />
 
           <p>
-            <b>小学生</b>
+            <b>개발중</b>
             <br />
             <span css={styles.keirekiGray}>(1993)</span>
           </p>
           <p>
-            なぜか祖父の家に置いてあったMSXに触れ、プログラミングの面白さに目覚める。これを一生の仕事にすることを決意する。
+            악성코드 차단 솔루션
           </p>
         </WhiteBox>
 
         <WhiteBox css={styles.whiteBox}>
-          <h3 css={styles.h3}>商号の由来</h3>
+          <h3 css={styles.h3}>가이드 자문</h3>
           <p>
-            「ゆうに」という言葉は島根県の石見地方で使われている方言で、以下の二つの意味を持っています。
+            방송통신위원회 스마트폰앱 개인정보보호를 위한 가이드
           </p>
           <p>
-            <b>1．いとも簡単に・たやすく</b>
-            <br />例）ゆうにできらぁや<br />解）簡単にできますよ
+            <b>1．웹사이트 취약점 진단 방법론</b>
           </p>
           <p>
-            <b>2．ゆっくりと・ゆったりと</b>
-            <br />例）ゆうに食べちゃんさいね<br />解）ゆっくり召し上がってくださいね
+            <b>2．모바일앱 취약점 진단 방법론</b>
           </p>
           <p>
-            Yuuniworksという商号には、「問題をさらっと鮮やかに解決して、のんびりとした人生を送る」という意味を込めています。
+            인터넷진흥원 정보보호지원센터를 통해 중소기업 컨설팅 및 취약점진단 지원 사업을 수행하고 있습니다.
           </p>
         </WhiteBox>
       </div>
