@@ -136,7 +136,7 @@ const ProfileSection = () => {
           <p>
             <b>개발중</b>
             <br />
-            <span css={styles.keirekiGray}>(1993)</span>
+            <span css={styles.keirekiGray}>(2019)</span>
           </p>
           <p>
             악성코드 차단 솔루션
