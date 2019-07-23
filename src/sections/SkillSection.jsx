@@ -58,14 +58,13 @@ const SkillSection = props => {
   const skills = {
     frontend: {
       'JavaScript / Typescript': 3,
-      'React / Redux': 3,
-      'Vue.js / Vuex': 3,
-      'Jest/Enzyme': 3,
-      'Material-UI': 3,
-      'PWA / Workbox': 2,
-      'Nuxt.js / Hugo / Gatsby': 2,
+      'C++ / C#': 3,
+      'HTML / XML': 3,
+      'HTTP / HTTPS': 3,
+      'CSS / CSS3': 3,
+      'XSTL / XPath': 2,
+      'Netlify / Gatsby': 2,
       GraphQL: 1,
-      RxJS: 1,
     },
     Backend: {
       Docker: 3,
@@ -76,14 +75,13 @@ const SkillSection = props => {
       RDBMS: 2,
       GCP: 2,
       Firebase: 2,
-      Kubernetes: 2,
     },
     ETC: [
       {
         title: 'Secure Coding',
         content: (
           <div>
-            ASP, PHP, C++
+            ASP, PHP, C++, Java
           </div>
         ),
       },
@@ -91,7 +89,7 @@ const SkillSection = props => {
         title: 'Cloud',
         content: (
           <div>
-            AWS, GCP, Azure
+            AWS, GCP, Azure, Ali, Oracle
           </div>
         ),
       },
