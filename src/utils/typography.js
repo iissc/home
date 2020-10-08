@@ -5,22 +5,11 @@ const typography = new Typography({
   baseFontSize: '16px',
   bodyFontFamily: [
     'Noto Sans JP',
-    // refer: https://munyagu.com/2094/
-    '游ゴシック Medium', // win
-    'Yu Gothic Medium', // win
-    '游ゴシック体', // mac
-    'YuGothic', // mac
-    'メイリオ', // win 7
     'sans-serif',
   ],
   headerColor: '#262626',
   headerFontFamily: [
     'Noto Sans JP',
-    '游ゴシック Medium', // win
-    'Yu Gothic Medium', // win
-    '游ゴシック体', // mac
-    'YuGothic', // mac
-    'メイリオ', // win 7
     'sans-serif',
   ],
   overrideStyles: () => ({
