@@ -4,7 +4,7 @@ module.exports = {
   siteDescription:
     '나무',
   siteKeywords:
-    'SPA,Serverless,Lambda,AWS,React,Redux,Angular',
+    '정보보안,정보보호지원센터',
   siteUrl: 'https://www.namusecurity.co.kr',
   siteLogo: '/images/logo_for_schema.png',
 };
