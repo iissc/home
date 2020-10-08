@@ -183,7 +183,7 @@ export default function BlogPost(props) {
               icon="arrow-left"
               style={styles.backButton.arrow}
             />
-            記事一覧に戻る
+            돌아가기
           </Link>
 
           <WhiteBox>
@@ -206,10 +206,10 @@ export default function BlogPost(props) {
             <footer css={styles.footer}>
               <img src={profileJpg} alt="profile" />
               <div>
-                <p>田村 翔太</p>
+                <p>나무시큐리티</p>
                 <p>
-                  <Link to="/">Yuuniworks</Link>
-                  代表。島根県浜田市を拠点に活動するフルスタックエンジニアです。Python/Node.js/GoによるAPIの開発、React/Vue.js等によるSPAの開発などを行っています。
+                  <Link to="/">나무시큐리티</Link>
+                  정보보호 컨설팅, 소프트웨어 개발
                 </p>
               </div>
             </footer>
@@ -220,7 +220,7 @@ export default function BlogPost(props) {
               icon="arrow-left"
               style={styles.backButton.arrow}
             />
-            記事一覧に戻る
+            돌아가기
           </Link>
         </div>
         <SEO postNode={post} />
