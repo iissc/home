@@ -94,7 +94,7 @@ const ProfileSection = () => {
               <b>주소</b>
             </div>
             <div css={styles.gaiyouItemContent}>
-              서울특별시 영등포구 도신로52길 19
+              서울특별시 강서구 마곡중앙4로 10 그랑트윈타워 A동 904호 (우)07631
             </div>
           </div>
 
