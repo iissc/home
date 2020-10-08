@@ -70,7 +70,7 @@ function SEO({ postNode, metaData }) {
     },
     foundingDate: '2011-12-13',
     description: config.siteDescription,
-    sameAs: ['https://www.facebook.com/yuuniworks/'],
+    sameAs: ['https://www.namusecurity.co.kr/'],
   });
 
   // JSON-LD Breadcrumb
