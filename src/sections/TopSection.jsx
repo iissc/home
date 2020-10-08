@@ -38,7 +38,7 @@ const TopSection = () => {
   return (
     <section id="top" css={styles.container}>
       <h1 css={styles.logo}>
-        <img src={logoSvg} alt="Yuuniworksのロゴ" />
+        <img src={logoSvg} alt="나무시큐리티" />
       </h1>
       <div css={styles.description}>
         나무시큐리티(주)는 국내 모바일 앱 진단의 원천기술력을 보유하고 있으며, 개인정보보호를 위해 노력하는 종합보안전문기업입니다.
