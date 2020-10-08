@@ -51,10 +51,10 @@ function SEO({ postNode, metaData }) {
     logo: `${config.siteUrl}${config.siteLogo}`,
     address: {
       postalCode: '697-0123',
-      addressCountry: 'JP',
-      addressRegion: '島根県',
-      addressLocality: '浜田市',
-      streetAddress: '金城町七条',
+      addressCountry: 'KR',
+      addressRegion: '서울',
+      addressLocality: '강서구',
+      streetAddress: '마곡동',
     },
     contactPoint: [
       {
@@ -65,10 +65,10 @@ function SEO({ postNode, metaData }) {
     ],
     founder: {
       '@type': 'Person',
-      givenName: '翔太',
-      familyName: '田村',
+      givenName: '나무시큐리티',
+      familyName: '주식회사',
     },
-    foundingDate: '2018-4-11',
+    foundingDate: '2011-12-13',
     description: config.siteDescription,
     sameAs: ['https://www.facebook.com/yuuniworks/'],
   });
