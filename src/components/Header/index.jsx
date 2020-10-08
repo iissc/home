@@ -36,14 +36,12 @@ class Header extends React.Component {
     window.removeEventListener('keydown', this.onKeydown);
   }
 
-  // ハンバーガーメニューをクリックするとメニューを開閉する
   onHumbergerClick() {
     this.setState({
       isMenuOpen: !this.state.isMenuOpen,
     });
   }
 
-  // ESCキーでメニューを閉じる
   onKeydown(e) {
     if (e.keyCode === 27) {
       this.setState({
@@ -52,7 +50,6 @@ class Header extends React.Component {
     }
   }
 
-  // スクロール位置がトップになっているか判断する
   onScroll() {
     const JUDGE_POSITION_Y = 50;
 
@@ -81,7 +78,6 @@ class Header extends React.Component {
     });
   }
 
-  // メニューの外側をクリックするとメニューを閉じる（react-onclickoutsideで制御）
   handleClickOutside() {
     if (this.state.isMenuOpen) {
       this.setState({
@@ -214,7 +210,7 @@ class Header extends React.Component {
               return (
                 <LinkForScroll
                   to={item.id}
-                  spy // avtiveクラスを自動で設定するために必須の設定
+                  spy 
                   smooth
                   duration={150}
                   offset={-50}
