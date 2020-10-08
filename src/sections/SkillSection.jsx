@@ -24,7 +24,7 @@ const SkillSection = props => {
     },
     containerKihon: {
       position:
-        'relative' /* 親要素をrelativeにしないと子(?マーク)がはみ出すため */,
+        'relative',
     },
     helpButton: {
       color: '#999999',
