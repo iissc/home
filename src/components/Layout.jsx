@@ -33,9 +33,9 @@ const TemplateWrapper = ({ children, location }) => {
     <div css={style}>
       <RipIe />
       <Helmet>
-        <html lang="ja" />
+        <html lang="ko" />
         <link
-          href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&amp;subset=japanese&amp;display=swap"
+          href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&amp;subset=korean&amp;display=swap"
           rel="stylesheet"
         />
       </Helmet>
